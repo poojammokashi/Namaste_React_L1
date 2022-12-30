@@ -1,0 +1,26 @@
+what is emmet?
+=> It's a plugin most popularly used for text editors which improves HTML & CSS WorkFlow.
+
+Difference between Library & FrameWork?
+=> Library: We are in charge of the flow of the application. We are choosing when and where to call the library.
+=>Framework: Framework is in charge of the flow It provides some places for you to plug in your code, but it calls the code you plugged in as needed.
+
+What is CDN? Why do we use it?
+CDN: COntent Delivery Network
+A CDN is a content delivery network. It is a system of distributed servers that deliver content to a user based on their geographic location.
+The benefits of using a CDN in React Js are many. CDNs can improve the performance of your website by reducing the latency of content delivery 
+and by providing a higher level of availability. CDNs can also help to improve the security of your website by providing a distributed denial of 
+service (DDoS) protection.
+
+Why React known as React?
+This API reacts to any state or property changes, and works with data of any form (as deeply structured as the graph itself) so I think the name is fitting.
+
+What is crossorigin in script tag?
+
+
+What is the difference between React and ReactDOM?
+
+
+What is the difference between react.development.js and react.production.js files via CDN?
+
+
