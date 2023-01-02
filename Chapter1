@@ -16,11 +16,27 @@ Why React known as React?
 This API reacts to any state or property changes, and works with data of any form (as deeply structured as the graph itself) so I think the name is fitting.
 
 What is crossorigin in script tag?
+=>The crossorigin attribute sets the mode of the request to an HTTP CORS Request.
 
+Web pages often make requests to load resources on other servers. Here is where CORS comes in.
+
+A cross-origin request is a request for a resource (e.g. style sheets, iframes, images, fonts, or scripts) from another domain.
+
+CORS is used to manage cross-origin requests.
+
+CORS stands for Cross-Origin Resource Sharing, and is a mechanism that allows resources on a web page to be requested from another domain outside their own domain. It defines a way of how a browser and server can interact to determine whether it is safe to allow the cross-origin request. CORS allows servers to specify who can access the assets on the server, among many other things.
+
+Access-Control-Allow-Origin: * HTTP header. For a better error handling experience in React >= 16.
 
 What is the difference between React and ReactDOM?
-
+=>React : Responsible for creating views.
+          a global variable for building of ui such as React.createElement()
+=>ReactDOM : Responsible to render UI in the browser.
+             for rendering the components in the browser by injecting them inside the root of DOM, root.render()
 
 What is the difference between react.development.js and react.production.js files via CDN?
+react.development.js => only for development purposes not suitable for production
+
+react.production.js => Minified and optimized production versions of React
 
 
